@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PocketMine-MP-VN-Group/PMVNGVipJoin
+build-by-default: true
+branches:
+- main
+projects:
+  PMVNGVipJoin:
+    path: ""
+    icon: icon.png
+...
