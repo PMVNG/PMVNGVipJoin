@@ -14,7 +14,7 @@
 groups:
   - Example1
   - Example2
- ```
+
 ## Project Infomation
 
 | Plugin Version | Pocketmine API | PHP Version | Plugin Status |
