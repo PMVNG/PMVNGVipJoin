@@ -11,6 +11,8 @@ use pocketmine\command\{Command, CommandSender};
 use pocketmine\Player;
 use pocketmine\Server;
 class Main extends PluginBase implements Listener{
+	
+	public $pprs;
 
 	public function onEnable(): void 
 	{
