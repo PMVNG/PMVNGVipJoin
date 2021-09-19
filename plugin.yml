@@ -1,0 +1,7 @@
+name: PMVNGVipJoin
+version: 0.0.1
+api: 3.0.0
+depend:
+  - PurePerms
+main: YTBJero\PMVNGVipJoin\Main 
+author: YTBJero
