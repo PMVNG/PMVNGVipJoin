@@ -10,6 +10,7 @@
 ## Config
   
 #Please enter the names of the rank who are authorized to when participating is greatly announced. as the format is present below.
+  
 groups:
   - Example1
   - Example2
