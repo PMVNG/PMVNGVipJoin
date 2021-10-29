@@ -1,23 +1,23 @@
 <div align="center">
 <h1>PMVNGVipJoin | v0.0.1<h1>
-<p>When the player owns the VIP rank on the server will be greatly notified!</p>
+<p>Khi người chơi sở hữu VIP trên máy chủ sẽ được thông báo đặc biệt khi tham gia máy chủ!</p>
 </div>
 
-## Features
-- Easy config
-- Announcement
+## Tính năng
+- Cấu hình dễ dàng
+- Sự thông báo
   
-## Config
-  
-#Please enter the names of the rank who are authorized to when participating is greatly announced. as the format is present below.
-  
+## Cấu hình
+```
+#Nhập tên của rank(cấp bậc) được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
 groups:
-  - Example1
-  - Example2
+  - Owner
+  - Admin
+```
 
-## Project Infomation
+## Thông tin dự án
 
-| Plugin Version | Pocketmine API | PHP Version | Plugin Status |
+| Phiên bản Plugin | Pocketmine API | Phiên bản PHP | Trạng thái Plugin |
 |---|---|---|---|
-| 0.0.1 | 3.x.x | 7.4 | Completed |
+| 0.0.1 | 3.x.x | 7.4 | Hoàn thành |
  
