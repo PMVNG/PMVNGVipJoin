@@ -1,4 +1,4 @@
-#Please enter the names of the rank who are authorized to when participating is greatly announced. as the format is present below.
+#Nhập tên của rank(cấp bậc) được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
 groups:
-  - Example1
-  - Example2
+  - Owner
+  - Admin
