@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YTBJero\PMVNGVipJoin;
+namespace DavidGlitch04\PMVNGVipJoin;
 
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
