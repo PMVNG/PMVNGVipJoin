@@ -11,7 +11,7 @@ use _64FF00\PurePerms\PurePerms;
 
 class Main extends PluginBase implements Listener {
 
-	protected PurePerms $prrs;
+	protected PurePerms $pprs;
 
 	protected function onEnable(): void {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
