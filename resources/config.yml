@@ -1,4 +1,6 @@
-#Nhập tên của rank(cấp bậc) được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
-groups:
+---
+# Nhập tên của rank(cấp bậc) được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
+ranks:
   - Owner
   - Admin
+...

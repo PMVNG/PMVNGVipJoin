@@ -1,7 +1,11 @@
+---
 name: PMVNGVipJoin
-version: 0.0.2
+version: 1.0.0
+main: DavidGlitch04\PMVNGVipJoin\Main
 api: 4.0.0
-depend:
-  - PurePerms
-main: YTBJero\PMVNGVipJoin\Main 
-author: DavidGlitch04
+website: https://github.com/PMVNG
+author: PMVNG
+authors: [DavidGlitch04]
+depend: [PurePerms]
+src-namespace-prefix: DavidGlitch04\PMVNGVipJoin
+...
