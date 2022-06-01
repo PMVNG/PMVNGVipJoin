@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PMVNGVipJoin | v0.0.1<h1>
+<h1>PMVNGVipJoin<h1>
 <p>Khi người chơi sở hữu VIP trên máy chủ sẽ được thông báo đặc biệt khi tham gia máy chủ!</p>
 </div>
 
