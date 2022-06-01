@@ -7,14 +7,13 @@ namespace YTBJero\PMVNGVipJoin;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
-use pocketmine\command\{Command, CommandSender};
-use pocketmine\Player;
-use pocketmine\Server;
+use pocketmine\player\Player;
+
 class Main extends PluginBase implements Listener{
 	
-	public $pprs;
+	protected $pprs;
 
-	public function onEnable(): void 
+	public function onEnable() : void 
 	{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->pprs = $this->getServer()->getPluginManager()->getPlugin("PurePerms");
@@ -25,7 +24,7 @@ class Main extends PluginBase implements Listener{
 		}
 	}
 
-	public function onJoin(PlayerJoinEvent $event)
+	public function onJoin(PlayerJoinEvent $event) : void
 	{
 		$player = $event->getPlayer();
 		foreach ($this->getConfig()->getNested("groups") as $rank) {
