@@ -7,11 +7,10 @@ namespace DavidGlitch04\PMVNGVipJoin;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
-use _64FF00\PurePerms\PurePerms;
 
 class Main extends PluginBase implements Listener {
 
-	protected PurePerms $pprs;
+	protected $pprs;
 
 	protected function onEnable(): void {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
