@@ -5,7 +5,7 @@ main: DavidGlitch04\PMVNGVipJoin\Main
 api: 4.0.0
 website: https://github.com/PMVNG
 author: PMVNG
-authors: [DavidGlitch04]
+authors: [DavidGlitch04, NhanAZ]
 depend: [PurePerms]
 src-namespace-prefix: DavidGlitch04\PMVNGVipJoin
 ...
