@@ -14,10 +14,3 @@ groups:
   - Owner
   - Admin
 ```
-
-## Thông tin dự án
-
-| Phiên bản Plugin | Pocketmine API | Phiên bản PHP | Trạng thái Plugin |
-|---|---|---|---|
-| 0.0.1 | 3.x.x | 7.4 | Hoàn thành |
- 
