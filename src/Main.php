@@ -12,6 +12,8 @@ class Main extends PluginBase implements Listener {
 
 	protected $pprs;
 
+	const DEFAULT_MESSAGE = "Welcome [{rank}] {name} to the server!";
+
 	protected function onEnable(): void {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->pprs = $this->getServer()->getPluginManager()->getPlugin("PurePerms");
@@ -22,7 +24,16 @@ class Main extends PluginBase implements Listener {
 		$player = $event->getPlayer();
 		foreach ($this->getConfig()->getNested("ranks", ["Owner", "Admin"]) as $rank) {
 			if ($this->pprs->getUserDataMgr()->getGroup($player)->getName() == $rank) {
-				$player->sendMessage("§l§1『 §bWelcome vip §f" . $player->getName() . " §bown rank §f" . $rank . " §bjoined the server.§1 』");
+				$replacements = [
+					"{name}" => $player->getName(),
+					"{rank}" => $rank,
+				];
+				$message = str_replace(
+					array_keys($replacements),
+					array_values($replacements),
+					$this->getConfig()->get("message", self::DEFAULT_MESSAGE)
+				);
+				$player->sendMessage($message);
 			}
 		}
 	}

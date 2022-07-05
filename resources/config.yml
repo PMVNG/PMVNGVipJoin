@@ -1,6 +1,13 @@
 ---
-# Nhập tên của rank(cấp bậc) được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
+# rank : cấp bậc
+
+# Nhập tên của rank được nhận thông báo thông báo đặc biệt khi tham gia máy chủ như định dạng hiện tại bên dưới.
 ranks:
   - Owner
   - Admin
+
+# Thông báo gửi tới người chơi có các rank được liệt ở ở ranks: []
+# {name} : Tên của người chơi
+# {rank} : Rank của người chơi
+message: "Welcome [{rank}] {name} to the server!"
 ...
