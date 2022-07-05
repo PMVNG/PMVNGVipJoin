@@ -10,4 +10,9 @@ ranks:
 # {name} : Tên của người chơi
 # {rank} : Rank của người chơi
 message: "Welcome [{rank}] {name} to the server!"
+
+# Loại thông báo
+# allPlayers : Gửi thông báo chào mừng người chơi vip đến toán bộ người chơi trong máy chủ
+# onlyVip : Chỉ gửi thông báo chào mừng đến người chơi sở hữu rank vip
+messageType: allPlayers
 ...

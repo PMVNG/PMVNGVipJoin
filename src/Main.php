@@ -33,7 +33,11 @@ class Main extends PluginBase implements Listener {
 					array_values($replacements),
 					$this->getConfig()->get("message", self::DEFAULT_MESSAGE)
 				);
-				$player->sendMessage($message);
+				if ($this->getConfig()->get("messageType", "allPlayers") == "allPlayers") {
+					$this->getServer()->broadcastMessage($message);
+				} elseif ($this->getConfig()->get("messageType", "onlyVip") == "onlyVip") {
+					$player->sendMessage($message);
+				}
 			}
 		}
 	}
