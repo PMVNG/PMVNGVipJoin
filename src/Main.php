@@ -7,6 +7,7 @@ namespace DavidGlitch04\PMVNGVipJoin;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase implements Listener {
 
@@ -34,9 +35,9 @@ class Main extends PluginBase implements Listener {
 					$this->getConfig()->get("message", self::DEFAULT_MESSAGE)
 				);
 				if ($this->getConfig()->get("messageType", "allPlayers") == "allPlayers") {
-					$this->getServer()->broadcastMessage($message);
+					$this->getServer()->broadcastMessage(TextFormat::colorize($message));
 				} elseif ($this->getConfig()->get("messageType", "onlyVip") == "onlyVip") {
-					$player->sendMessage($message);
+					$player->sendMessage(TextFormat::colorize($message));
 				}
 			}
 		}
